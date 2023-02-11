@@ -1,10 +1,13 @@
-.header{
-    width: 80%;
+.body {
     margin: 0 10%;
+}
+
+.header {
     background-color: rgb(58, 54, 49);
     border-radius: 25px;
 }
-.header-info{
+
+.header-info {
     color: white;
     display: flex;
     align-items: center;
@@ -12,10 +15,51 @@
     padding-bottom: 0;
 
 }
-.btn button{
+
+.btn button {
     padding: 1%;
     margin: 2%;
     border-radius: 5px;
     border: 0;
-        
+
+}
+
+/* options-card */
+.options-card {
+    padding-top: 30px;
+}
+
+.options button {
+    width: 90%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    background-color: red;
+    color: white;
+    margin-top: 5px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: rgb(65, 59, 59);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.options-card{
+    display: flex;
+}
+
+
+.card-sections {
+    margin-left: 10px;
+    width: 312px;
+    display:grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    
+
 }
