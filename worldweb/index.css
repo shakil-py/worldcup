@@ -1,0 +1,21 @@
+.header{
+    width: 80%;
+    margin: 0 10%;
+    background-color: rgb(58, 54, 49);
+    border-radius: 25px;
+}
+.header-info{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    padding-bottom: 0;
+
+}
+.btn button{
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
+    border: 0;
+        
+}
