@@ -21,11 +21,20 @@ body {
 }
 
 .btn button {
-    padding: 1%;
-    margin: 2%;
+    text-align: center;
+    align-items: center;
+    display:flex ;
+    flex-direction: row;
+    background-color: red;
+    color: white;
+    width: 130px;
+    padding: 10px 20px;
+    margin-top: 20px;
     border-radius: 5px;
     border: 0;
-
+}
+.btn button i{
+    padding-left: 15px;
 }
 
 /* options-card */
@@ -82,7 +91,9 @@ body {
 .card-info {
     padding: 10px;
 }
-
+#secondline{
+    border: 0;
+}
 .icon i {
     padding-right: 10px;
     font-size: 15px;
